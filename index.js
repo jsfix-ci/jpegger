@@ -17,10 +17,10 @@ async function main() {
 	//
 
 	program
-		.option("-i, --indir [globs]", "input directory containing images")
-		.option("-o, --outdir [dir]", "output directory")
-		.option("-q, --quality [number]", "jpeg quality", 75)
-		.option("-s, --size [number]", "maximum width and height", null)
+        .option("-i, --indir [globs]", "input directory containing images")
+        .option("-o, --outdir [dir]", "output directory")
+        .option("-q, --quality [number]","jpeg quality").preset(75)
+        .option("-s, --size [number]","maximum width and height").preset(null)
 	program.parse(process.argv)
 
 	//

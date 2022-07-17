@@ -21,7 +21,7 @@
 		"resize"
 	],
 	"dependencies": {
-		"commander": "^8.1.0",
+		"commander": "^9.4.0",
 		"die-on-error": "^0.0.0-dev.0",
 		"fast-glob": "^3.2.7",
 		"sharp": "^0.28.3",
